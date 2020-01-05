@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=News+Cycle&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+body
+{
+    background-color:#131010 ;
+    color: white;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#container
+{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#home
+{
+    text-align: left;
+    padding-top: 20px;
+    font-size: 60px;
+    font-family: 'News Cycle', sans-serif;
+}
+
+#content
+{ 
+    margin-left: 300px;
+    width: 400px;
+    height: 200px;
+    background-color: #131010;
+    border-radius: 20px;
+    border: solid 2px #43d697;
+    margin-top: 100px;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+
+#location
+{
+    padding-top: 25px;
+    color: #3ee29b;
+    margin-bottom: 10px;
+    font-size: 40px;
+    transition: all 0.3s ease-in;
+}
+
+#celsius
+{
+    padding-left: 15px;
+    color:#34b67e;
+    font-size: 60px;
+    transition: all 0.3s ease-in;
+}
+
+a.link
+{
+    color:#ffffff;
+    text-decoration: none;
+}

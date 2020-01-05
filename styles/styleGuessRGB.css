@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=News+Cycle&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inria+Serif&display=swap');
+body
+{
+    color:#c5a4b5;
+    background-color: black;
+    
+}
+
+#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home
+{
+    text-align: left;
+    padding-top: 20px;
+    font-size: 60px;
+    font-family: 'News Cycle', sans-serif;
+}
+
+#content
+{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#title
+{
+    
+    font-size: 60px;
+    font-weight: 600;
+    color:#a56fdf;
+}
+
+#colorLeaf
+{
+    margin-left: 432px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 80px 0;
+    border: solid 2px rgb(19, 18, 18);
+    width: 130px;
+    height: 130px;
+    transition: all 0.4s ease-in;
+}
+
+#options
+{
+    margin: 5% 35% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.option
+{
+    border-radius: 15px;
+    border: solid 2px #a56fdf;
+    padding-top: 8px;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    margin: 0 5px;
+    transition:  all 0.4s ease-in;
+    font-size: 15px;
+}
+
+.option:hover
+{
+    color: #9c68d3;
+    cursor: pointer;
+    opacity: 0.7px;
+}
+
+a.link
+{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+#bottomBar
+{
+    margin-top: 50px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Inria Serif', serif;
+}
+
+#points
+{
+    text-align: center;
+    font-size: 20px;
+    color:#a56fdf;
+}

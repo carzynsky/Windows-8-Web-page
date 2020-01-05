@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content = "Minutnik.">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Timer</title>
+    <link rel="stylesheet" href="../styles/styleStopwatch.css">
+    <script src="../scripts/script3.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="home"><a href="../index.html" class="link">Start</a></div>
+        <div id="content">
+            <div id="clock">00:00:00</div>
+            <!-- Definicja przycisków, dla zdarzenia onclick wywoływana będzie odpowiednia funkcja zdefiniowana w js-->
+            <button id="start" onclick="startTimer()">Start</button>
+            <button id="stop" onclick="stopTimer()">Stop</button>
+            <button id="reset" onclick="resetTimer()">Reset</button>
+        </div>
+    </div> 
+</body>
+</html>

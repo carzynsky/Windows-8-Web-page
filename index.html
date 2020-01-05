@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content =" "width="device-width, initial-scale=1.0" />
+    <meta name="description" content="Przeglądarkowy interfejs systemu operacyjnego Windows 8."/>
+    <meta http-equiv="X-UA-Compatible" content = "ie-edge" />
+    <title>Windows 8</title>
+    <link rel="icon" href="https://img.icons8.com/color/48/000000/windows8.png">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="fontello/css/fontello.css">
+              
+    <script src="scripts/script1.js"></script>
+</head>
+<!-- Wywołanie odpowiednich funkcji podczas załadowania strony -->
+<body onload="loadOnScreen(); loadQuote();">
+    <!-- Utworzenie odpowiednich divów -->
+    <div id="container">
+        <div id="topbar">
+            <!-- Utworzenie hiperłącza -->
+            <a href="index.html" class="tilelink">Start</a>
+        </div>
+        <div id="clock">
+            Time.
+        </div>
+        <div style="clear:both;"></div>
+        <div id="content">    
+                <div class="tileYt">
+                    <a href="https://www.youtube.com/" class="tilelink" target="_blank">
+                        <i class="icon-youtube-play"></i>
+                    </a>
+                </div>
+                <div class="tileTwitter">
+                    <a href="https://twitter.com/" class="tilelink" target="_blank">
+                        <i class="icon-twitter"></i>
+                        </a>
+                </div>            
+            <div class="tile2"></div>
+            <div class="tileQuote">
+                Quote.
+            </div>
+            <div class="tileFb">
+                <a href="https://www.facebook.com/" class="tilelink" target="_blank">
+                    <i class="icon-facebook-official"></i> 
+                </a>
+            </div>
+            <div class="tileTheme">
+                <i class="icon-exchange"></i>
+            </div>
+            <div class="tileGuessRGB">
+                <a href="pages/pageGuessRGB.html" class="tilelink">
+                    <i class="icon-gamepad"></i>
+                </a>
+            </div>
+            <div class="tileTimer">
+                <a href="pages/pageStopwatch.html" class="tilelink">
+                    <i class="icon-stopwatch"></i>
+                </a>            
+            </div>
+            <div class="tileWeather">
+                <a href="pages/pageWeather.html" class="tilelink">
+                    <i class="icon-cloud"></i>
+                </a>
+            </div>
+        </div>
+        <div id="footer">Arkadiusz Carzyński &copy</div>
+    </div>
+    <script src="scripts/script2.js"></script>
+</body>
+</html>

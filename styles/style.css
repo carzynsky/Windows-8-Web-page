@@ -1,0 +1,207 @@
+/* Zaimportowanie czcionek z google fonts */
+@import url('https://fonts.googleapis.com/css?family=News+Cycle&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inria+Serif&display=swap');
+body
+{
+    background-color: #9400ff;
+    font-family: 'News Cycle', sans-serif;
+    color: white;
+    transition: all 0.4s ease-in;
+    
+}
+
+#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#topbar
+{
+    float: left;
+    padding-top: 20px;
+    font-size: 60px;
+    text-align: left;
+    width: 600px;
+}
+
+#clock
+{
+    font-family: 'Oswald', sans-serif;
+    float: left;
+    text-align: right;
+    padding-top: 55px;
+    font-size: 40px;
+    width:400px;
+    transition: all 0.4s ease-in;
+}
+
+#content
+{
+    margin-top: 50px;
+    height: 500px;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.tileYt
+{
+    width: 150px;
+    height: 150px;
+    background-color: #ff6666;
+    margin-right: 15px;
+    transition: all 0.4s ease-in;
+}
+
+.tileYt:hover
+{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.tileTwitter
+{
+    width: 150px;
+    height: 150px;
+    background-color: #00aced;
+    margin-right: 15px;
+    transition: all 0.4s ease-in;
+}
+
+.tileTwitter:hover
+{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.tileFb
+{
+    width: 150px;
+    height: 150px;
+    background-color:#3b5998;
+    margin-right: 15px;
+    margin-top: -90px;
+    transition: all 0.4s ease-in;
+}
+
+.tileFb:hover
+{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+.tileGuessRGB
+{
+    width: 150px;
+    height: 150px;
+    background-color:#ece358;
+    margin-right: 15px;
+    margin-top: -90px;
+    transition: all 0.4s ease-in;
+}
+
+.tileGuessRGB:hover
+{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.tileWeather
+{
+    width: 150px;
+    height: 150px;
+    background-color:#b7e757;
+    margin-right: 15px;
+    margin-top: -90px;
+    transition: all 0.4s ease-in;
+}
+
+.tileWeather:hover
+{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.tileTimer
+{
+    width: 150px;
+    height: 150px;
+    background-color:#ff7c3c;
+    margin-right: 15px;
+    margin-top: -90px;
+    transition: all 0.4s ease-in;
+}
+
+.tileTimer:hover
+{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.tileTheme
+{
+    width: 150px;
+    height: 150px;
+    background-color: #00e5ce;
+    margin-right: 15px;
+    margin-top: -90px;
+    transition: all 0.4s ease-in;
+}
+
+.tileTheme:hover
+{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.tile2
+{
+    width: 250px;
+    height: 135px;
+    background-color:#cb98cd;
+    margin-right: 15px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+    transition: all 0.4s ease-in;
+}
+.tile2:hover
+{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.tileQuote
+{
+    font-family: 'Inria Serif', serif;
+    font-size: 15px;
+    width: 270px;
+    height: 80px;
+    background-color:#ffb366;
+    margin-right: 15px;
+    padding: 40px 20px 30px 20px;
+    text-align: left;
+    transition: all 0.4s ease-in;
+}
+.tileQuote:hover
+{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+a.tilelink
+{
+    color: #ffffff;
+    display: block;
+    width: 150px;
+    height: 150px;
+    text-decoration: none;
+}
+
+#footer
+{
+    font-size: 15px;
+    color: white;
+    text-align: right;
+}

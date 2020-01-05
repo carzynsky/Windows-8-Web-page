@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=News+Cycle&display=swap');
+body
+{
+    background-color:#131010 ;
+    color: white;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home
+{
+    text-align: left;
+    padding-top: 20px;
+    font-size: 60px;
+    font-family: 'News Cycle', sans-serif;
+}
+
+#content
+{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+#clock
+{
+    font-size: 80px;
+    padding-right: 18px;
+    transition: all 0.3s ease-in;
+}
+#clock:hover
+{
+    opacity: 0.7;
+    cursor: default;
+}
+#start
+{
+    color: white;
+    font-size: 20px;
+    background: #111010;
+    margin-right: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius:15px;
+    border:solid 2px #885555;
+    letter-spacing: 2px;
+}
+#start:hover
+{
+    color:rgb(226, 100, 50);
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#stop
+{
+    color: white;
+    font-size: 20px;
+    background: #111010;
+    margin-right: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius:15px;
+    border:solid 2px #558888;
+    letter-spacing: 2px;
+}
+#stop:hover
+{
+    color:rgb(226, 100, 50);
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#reset
+{
+    color: white;
+    font-size: 20px;
+    background: #111010;
+    margin-right: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius:15px;
+    border:solid 2px #558870;
+    letter-spacing: 2px;
+}
+#reset:hover
+{
+    color:rgb(226, 100, 50);
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+a.link
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
